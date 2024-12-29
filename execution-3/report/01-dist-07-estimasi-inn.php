@@ -1,5 +1,6 @@
 <?php
 # https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/01-dist-07-estimasi-inn.php
+exit();
 require '../../00-02-conn-dist.php';
 require '../../00-03-base-config.php';
 require_once '../../library/fast-excel-writer/src/autoload.php';

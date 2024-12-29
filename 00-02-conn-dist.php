@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/jakarta');
 
-$servername = "103.103.192.190";
+$servername = "103.103.192.192";
 #$servername = "103.93.53.15";
 $username = "dms_bascds_dist";
 $password = "St7an@cds24";

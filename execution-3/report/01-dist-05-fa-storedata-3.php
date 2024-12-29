@@ -80,7 +80,8 @@ $writeResult = file_put_contents("download/". $filename, $dataMessage);
 if ($writeResult != false) {
   $config["whatsappSendMessage"]($config['key-wa-bas'],  "Screening KTP Rca Approval", $config['id-wa-group-fa'], "true");
   #$config["whatsappSendDocs"]($config['key-wa-bas'],  $config['id-wa-group-fa'], "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename,  "true");
-  $config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/download/". $filename);
+  #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/download/". $filename);
+  $config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", $config['domain2']. "execution-3/report/download/".  $filename);
 }
 
 

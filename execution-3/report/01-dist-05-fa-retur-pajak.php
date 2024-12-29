@@ -103,7 +103,8 @@ if (0 == 0) {
   #$config["whatsappSendDocs"]($config['key-wa-bas'],  $sender, "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename,  "true");
   #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/". $filename);
   #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "Crew BAS", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
-  $config["whacentersenddoc"]($config['key-whacenter-1'],  $sender, "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/". $filename);
+  #$config["whacentersenddoc"]($config['key-whacenter-1'],  $sender, "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/". $filename);
+  $config["whacentersenddoc"]($config['key-whacenter-1'],  $sender, "",  $config['domain2']. "execution-3/report/".  $filename);
 }
 
 # Delete file in directory

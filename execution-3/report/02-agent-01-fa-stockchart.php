@@ -1,5 +1,6 @@
 <?php
 # https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/02-agent-01-fa-stockchart.php
+exit();
 require '../../00-01-conn-agent.php';
 require '../../00-03-base-config.php';
 $config = config();

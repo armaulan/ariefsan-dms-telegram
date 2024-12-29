@@ -1,5 +1,6 @@
 <?php
 # https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/02-agent-05-fa-umutuk.php
+exit();
 require '../../00-01-conn-agent.php';
 require '../../00-03-base-config.php';
 $config = config();
@@ -132,7 +133,7 @@ $writeResult = file_put_contents("download/". $filename, $dataMessage);
 if ($writeResult != false) {
   $config["whatsappSendMessage"]($config['key-wa-bas'],  "Data Testing", $config['id-wa-group-fa'], "true");
   #$config["whatsappSendDocs"]($config['key-wa-bas'],  $config['id-wa-group-fa'], "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename,  "true");
-  $config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename);
+  #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename);
 }
 
 

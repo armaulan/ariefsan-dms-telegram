@@ -322,8 +322,9 @@ if (0 == 0) {
   #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132214971', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
   #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132214899', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename);
   #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132214783', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
-  $config["whacentersenddoc"]($config['key-whacenter-1'], '082180603613', "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/download/". $zipname);
   #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132048665', "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/download/". $zipname);
+  #$config["whacentersenddoc"]($config['key-whacenter-1'], '082180603613', "", "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/report/download/". $zipname);
+  $config["whacentersenddoc"]($config['key-whacenter-1'], '082180603613', "", $config['domain2']. "execution-3/report/download/". $zipname);
 }
 
 # Delete file in directory

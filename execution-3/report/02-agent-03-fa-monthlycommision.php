@@ -1,5 +1,6 @@
 <?php
 # https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/02-agent-03-fa-monthlycommision.php
+exit();
 require '../../00-01-conn-agent.php';
 require '../../00-03-base-config.php';
 require_once '../../library/fast-excel-writer/src/autoload.php';
@@ -123,7 +124,7 @@ if (0 == 0) {
   #$config["whatsappSendMessage"]($config['key-wa-bas'],  "Agent Monthy Commission", $config['id-wa-group-fa'], "true");
   #$config["whatsappSendDocs"]($config['key-wa-bas'],  $config['id-wa-group-fa'], "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename,  "true");
   #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "My Lovely", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
-  $config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "Crew BAS", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
+  #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "Crew BAS", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
 }
 
 # Delete file in directory

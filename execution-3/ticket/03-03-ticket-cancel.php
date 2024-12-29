@@ -54,7 +54,8 @@ if($queryExec){
 	# file_get_contents("https://ariefsan.crewbasproject.my.id/telegram/execution-3/ticket/03-02-ticket-showlist.php");
     $ch = curl_init();
 
-    curl_setopt($ch, CURLOPT_URL, "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/ticket/03-02-ticket-showlist.php");
+    #curl_setopt($ch, CURLOPT_URL, "https://tlgrm.iccgt.my.id/ariefsan/telegram/execution-3/ticket/03-02-ticket-showlist.php");
+    curl_setopt($ch, CURLOPT_URL, $config['domain2']. "execution-3/ticket/03-02-ticket-showlist.php");
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS,
                 "let1=null&let2=$post_channel&let3=null");

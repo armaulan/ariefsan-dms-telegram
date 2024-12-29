@@ -1,5 +1,6 @@
 <?php
 # https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/01-dist-06-sales-mo-mitra.php
+exit();
 require '../../00-02-conn-dist.php';
 require '../../00-03-base-config.php';
 require_once '../../library/fast-excel-writer/src/autoload.php';
@@ -307,8 +308,9 @@ if (0 == 0) {
   #$config["whatsappSendMessage"]($config['key-wa-bas'],  "Data Phone Store Inndi", $config['id-wa-group-fa'], "true");
   #$config["whatsappSendDocs"]($config['key-wa-bas'],  $config['id-wa-group-fa'], "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename,  "true");
   #$config["whacenterSendGroupDoc"]($config['key-whacenter-1'],  "Crew BAS", "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename);
-  $config["whacentersenddoc"]($config['key-whacenter-1'], '081132214971', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
   #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132214971', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $filename);
+  #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132214971', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
+  #$config["whacentersenddoc"]($config['key-whacenter-1'], '081132214971', "", "https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/download/". $zipname);
 }
 
 # Delete file in directory

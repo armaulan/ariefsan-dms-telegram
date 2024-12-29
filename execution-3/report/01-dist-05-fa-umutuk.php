@@ -1,5 +1,6 @@
 <?php
 # https://ariefsan.crewbasproject.my.id/telegram/execution-3/report/01-dist-05-fa-umutuk.php
+exit();
 require '../../00-02-conn-dist.php';
 require '../../00-03-base-config.php';
 $config = config();

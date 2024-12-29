@@ -89,6 +89,6 @@ if($status == 'success') {
 } else {
     #file_get_contents("https://api.telegram.org/bot5217628574:AAHpzjY9JAcvS5Dg67UxJdwFz0-EQ2tisUA/sendMessage?chat_id=474974312&text=Gagal");
     $errMessage = $responseData->error;
-    $config["whatsappSendMessage"]($config['key-wa-bas'],  "GAGAL - $errMessage", $sender, "false");
+    $config["whatsappSendMessage"]($config['key-wa-bas'],  "GAGAL COBA LAGI, EMANG KADANG GANGGUAN- $errMessage", $sender, "false");
 } 
 
